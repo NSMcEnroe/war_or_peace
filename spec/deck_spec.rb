@@ -29,7 +29,22 @@ RSpec.describe Deck do
     # p deck.cards
     # p deck.rank_of_card_at(0)
     # p deck.rank_of_card_at(2)
-    
+    # p deck.high_ranking_cards
+    # p deck.percent_high_ranking
+    deck.remove_card
+    # p deck.cards
+    # p deck.high_ranking_cards
+    # p deck.percent_high_ranking
+
+    card4 = Card.new(:club, '5', 5)
+    # p card4
+
+    deck.add_card(card4)
+    # p deck.cards
+    # p deck.high_ranking_cards
+    # p deck.percent_high_ranking
+
+
 
 end
 
