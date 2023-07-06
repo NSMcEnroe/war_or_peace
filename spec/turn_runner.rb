@@ -26,5 +26,12 @@ RSpec.describe Turn do
     turn.player1
     turn.player2
     turn.spoils_of_war
-    p turn.type
+    turn.type
+    winner = turn.winner
+    turn.pile_cards
+    turn.spoils_of_war
+    turn.award_spoils(winner)
+    p player1.deck
+    p player2.deck
+
 end
